@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* mobile responsive */
+.container {
+    width: 100%; /* Responsive width */
+    padding: 2% 5%; /* Responsive padding */
+    font-size: 3vw; /* Responsive font size */
+  }
+  /* Default styles */
+
+.container {
+    width: 100%;
+  }
+  
+  /* Styles for screens with a maximum width of 768 pixels */
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  img {
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+  }
+    
+.section-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.502)),url("../images/pexels-elle-hughes-1660030.jpg");
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    transition: 500ms;
+}
+nav{
+    margin-right: 50px;
+}
+nav a{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    color:#eee;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    padding: 10px 1px;
+    transition: 200ms;
+}
+
+.active{
+    border-color:#00B3FF;
+}
+#collapsibleNavbar {
+
+}
+/* for navbar hover */
+#collapsibleNavbar ul li a{
+    font-size: 15px;
+    margin-left: 140px;
+    color:#eee;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    padding: 10px 1px;
+    transition: 500ms;
+}
+
+#collapsibleNavbar ul li a:hover{
+    border-color:#00B3FF;
+}
+
+.logo{
+    float: right;
+    font-size: 35px;
+    margin-left: 70px;
+    color:#fff;
+}
+.bgc{
+    background: #130d0d;
+    padding: 10px;
+    color:#000;
+}
+.bgc .logo{
+    font-size: 30px;
+    color: #000;
+}
+.bgc nav a{
+    color:#222;
+}
+.bgc #collapsibleNavbar{
+    font-size: 30px;
+    color: #000;
+}
+.bgc #collapsibleNavbar ul li a{
+    color:#222;
+}
+.card-1{
+    width: 200px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 40px;
+}
+.img{
+        max-width: 100%;
+        min-height: 1px;
+        height: auto;
+}
+.social-icons a{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.section-2 a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background:red;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* section-3 */
+.section-3 a{
+    
+}
+/* section-4 */
+.section-4 a{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+    font-size: large;
+}
+/* section 5 */
+.section-5 a{
+    color:white;
+    font-weight: 600;
+    text-decoration: none;
+    background: green;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+}
+.section-5 ,h1 p{
+    color:white;
+}
+.section-5 .More-2{
+   background: transparent;
+   border:2px solid white ;
+}
+.section-5 .More-2:hover{
+    background-color: white;
+    color:black;
+ }
+/* section 6 */
+.section-6 a{
+    color:white;
+    font-weight: 600;
+    text-decoration: none;
+    text-decoration: none;
+    background: green;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+}
+.section-6, h1 p{
+    color:white;
+}
+.section-6 .More-2{
+    background: transparent;
+    border:2px solid white ;
+ }
+ .section-6 .More-2:hover{
+     background-color: white;
+     color:black;
+  }
+  .input-1{
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid red;
+    background-color: red;
+    color:white;
+    font-size: larger;
+  }
+  /* section-11 */
+  .section-11 a{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+    font-size: large;
+  }
